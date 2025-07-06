@@ -41,9 +41,9 @@ export default function Home() {
           <div className="bg-white p-4 rounded-xl shadow">
             <h3 className="text-green-700 font-bold text-xl mb-2">Lawn Mowing + Blowing</h3>
             <ul className="list-disc list-inside">
-              <li>Up to 2,000 sq ft – $55</li>
-              <li>2,000 – 4,000 sq ft – $75</li>
-              <li>4,000 – 6,000 sq ft – $95</li>
+              <li>Up to 1,999 sq ft – $55</li>
+              <li>2,000 – 3,999 sq ft – $75</li>
+              <li>4,000 – 5,999 sq ft – $95</li>
               <li>6,000 – 8,000 sq ft – $115</li>
             </ul>
           </div>
