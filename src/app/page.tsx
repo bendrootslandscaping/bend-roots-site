@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen pb-20 bg-[url('/Background1.jpg')] bg-[length:120%] bg-center flex flex-col items-center text-black">
+    <main className="min-h-screen pb-20 bg-[url('/Background1.jpg')] bg-cover bg-center bg-fixed flex flex-col items-center text-black">
       <header className="w-full bg-white shadow-md py-6 flex flex-col items-center">
         <img
           src="/Bend_Roots_Landscaping_Logo.jpg"
@@ -87,7 +87,7 @@ export default function Home() {
             </a>
           </p>
           <p className="text-sm text-gray-600 italic mt-1">
-            Email: info@bendrootslandscaping.com
+            Email: <a href="mailto:info@bendrootslandscaping.com" className="text-green-700 underline">info@bendrootslandscaping.com</a>
           </p>
         </div>
       </section>
@@ -134,26 +134,30 @@ export default function Home() {
         <p className="text-base text-gray-800 mb-6">
           Let us know what your property needs — and we’ll reach out with an estimate quickly.
         </p>
-        <form className="bg-white p-6 rounded-xl shadow space-y-4 text-left">
+        <form
+          action="https://formspree.io/f/xjkrdpzr"
+          method="POST"
+          className="bg-white p-6 rounded-xl shadow space-y-4 text-left"
+        >
           <div>
             <label className="block font-semibold text-sm">Name</label>
-            <input type="text" placeholder="Your full name" className="w-full border border-gray-300 rounded-md p-2" />
+            <input type="text" name="name" required placeholder="Your full name" className="w-full border border-gray-300 rounded-md p-2" />
           </div>
           <div>
             <label className="block font-semibold text-sm">Address</label>
-            <input type="text" placeholder="Your address" className="w-full border border-gray-300 rounded-md p-2" />
+            <input type="text" name="address" placeholder="Your address" className="w-full border border-gray-300 rounded-md p-2" />
           </div>
           <div>
             <label className="block font-semibold text-sm">Email</label>
-            <input type="email" placeholder="Your email address" className="w-full border border-gray-300 rounded-md p-2" />
+            <input type="email" name="email" required placeholder="Your email address" className="w-full border border-gray-300 rounded-md p-2" />
           </div>
           <div>
             <label className="block font-semibold text-sm">Phone Number</label>
-            <input type="tel" placeholder="Your phone number" className="w-full border border-gray-300 rounded-md p-2" />
+            <input type="tel" name="phone" placeholder="Your phone number" className="w-full border border-gray-300 rounded-md p-2" />
           </div>
           <div>
             <label className="block font-semibold text-sm">Describe your project</label>
-            <textarea placeholder="Services needed, square footage, etc." className="w-full border border-gray-300 rounded-md p-2" rows={4}></textarea>
+            <textarea name="message" required placeholder="Services needed, square footage, etc." className="w-full border border-gray-300 rounded-md p-2" rows={4}></textarea>
           </div>
           <button type="submit" className="bg-green-700 text-white px-6 py-2 rounded-md hover:bg-green-800 transition">
             Submit Request
