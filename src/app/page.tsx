@@ -60,8 +60,8 @@ export default function Home() {
           <div className="bg-white p-4 rounded-xl shadow">
             <h3 className="text-green-700 font-bold text-xl mb-2">Yard Clean-Up</h3>
             <ul className="list-disc list-inside">
-              <li>Small (up to 4,000 sq ft) – $120</li>
-              <li>Medium (4,000–8,000 sq ft) – $190</li>
+              <li>Small (up to 3,999 sq ft) – $120</li>
+              <li>Medium (4,000–7,999 sq ft) – $190</li>
               <li>Large (8,000+ sq ft) – $250+</li>
             </ul>
           </div>
