@@ -37,7 +37,7 @@ export default function Home() {
               Lawn Mowing + Blowing <span className="text-sm italic text-gray-500">(One-Time Service)</span>
             </h3>
             <ul className="list-disc list-inside">
-              <li>Up to 1,999,000 sq ft – $55</li>
+              <li>Up to 1,999 sq ft – $55</li>
               <li>2,000 – 3,999 sq ft – $75</li>
               <li>4,000 – 5,999 sq ft – $95</li>
               <li>6,000 – 8,000 sq ft – $115</li>
