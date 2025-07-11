@@ -77,11 +77,26 @@ export default function Home() {
             </ul>
           </div>
 
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h3 className="text-green-700 font-bold text-xl mb-2">
+              Additional Maintenance Services <span className="text-sm italic text-gray-500">(No LCB License Required)</span>
+            </h3>
+            <ul className="list-disc list-inside">
+              <li>Leaf and debris cleanup</li>
+              <li>Shrub, hedge, and small tree pruning (under 10 ft)</li>
+              <li>Mulch and bark dust application</li>
+              <li>Fertilizer application (organic or granular only)</li>
+              <li>Trimming ground cover</li>
+              <li>Pressure washing hard surfaces</li>
+              <li>Snow removal</li>
+            </ul>
+          </div>
+
         </div>
 
         <div className="mt-6 text-center">
           <p className="font-bold">
-            Call or Text:{" "}
+            Call or Text: {" "}
             <a href="tel:3073892796" className="text-green-700 underline">
               307-389-2796
             </a>
@@ -94,7 +109,7 @@ export default function Home() {
 
       <section className="mt-10 px-4 py-8 w-full max-w-6xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 text-left">
-          {[
+          {[ 
             {
               quote: "Absolutely amazing service! My yard has never looked better.",
               name: "Sarah M.",
