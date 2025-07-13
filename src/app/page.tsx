@@ -49,8 +49,8 @@ export default function Home() {
               Weeding <span className="text-sm italic text-gray-500">(One-Time Service)</span>
             </h3>
             <ul className="list-disc list-inside">
-              <li>Light (up to 2 hrs) – $65</li>
-              <li>Moderate (2–4 hrs) – $100</li>
+              <li>Light (up to 1 hrs) – $65</li>
+              <li>Moderate (1–2 hrs) – $100</li>
               <li>Heavy/Overgrown – Custom quote</li>
             </ul>
           </div>
