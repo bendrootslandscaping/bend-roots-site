@@ -87,8 +87,6 @@ export default function Home() {
               <li>Mulch and bark dust application</li>
               <li>Fertilizer application (organic or granular only)</li>
               <li>Trimming ground cover</li>
-              <li>Pressure washing hard surfaces</li>
-              <li>Snow removal</li>
             </ul>
           </div>
 
